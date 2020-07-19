@@ -19,19 +19,19 @@ h2{
 
 #title{
   background-color: #006a71;
-  padding : 100px 50px 300px;
+  padding : 100px 50px 200px;
   position: relative;
 }
 
 .ufo-image{
   position: absolute;
   right: 30%;
-  width: 50%;
+  width: 70%;
 }
 
 #working{
   position: relative;
-  padding: 50px 50px 300px
+  padding: 50px 50px 200px
 }
 
 .working-para{
@@ -41,7 +41,7 @@ h2{
 }
 
 .sleeping{
-  width: 60%;
+  width: 80%;
   position: absolute;
   right: 10%;
 
@@ -70,4 +70,19 @@ h2{
 .pressed{
   background-color: #cf1b1b;
   opacity: 0.5;
+}
+
+
+@media (max-width: 1028px){
+  .sleeping{
+    visibility: hidden;
+  }
+  h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .ufo-image{
+    width: 40%;
+  }
 }
