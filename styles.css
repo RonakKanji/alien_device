@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+}
+
+h1{
+  color: #fff;
+  font-family: 'Red Rose', cursive;
+  width: 60%;
+  font-size: 4rem;
+  margin-left: 50px;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Red Rose', cursive;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#title{
+  background-color: #006a71;
+  padding : 100px 50px 200px;
+  position: relative;
+}
+
+.ufo-image{
+  position: absolute;
+  right: 30%;
+  width: 70%;
+}
+
+#working{
+  position: relative;
+  padding: 50px 50px 200px
+}
+
+.working-para{
+  text-align: left;
+  margin-left: 50px;
+  font-weight: normal;
+}
+
+.sleeping{
+  width: 80%;
+  position: absolute;
+  right: 10%;
+
+}
+
+
+#device{
+  text-align: center;
+  background-color: #cbeaed;
+  padding: 50px 50px 200px;
+}
+
+.spacing{
+  padding-top: 2%;
+}
+
+.btns{
+  margin: 10%;
+  padding: 30px 60px;
+  background-color: #900d0d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pressed{
+  background-color: #cf1b1b;
+  opacity: 0.5;
+}
